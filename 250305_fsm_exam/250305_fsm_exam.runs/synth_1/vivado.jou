@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  5 16:50:08 2025
+# Process ID: 400
+# Current directory: D:/working/harman_FPGA/250305_fsm_exam/250305_fsm_exam.runs/synth_1
+# Command line: vivado.exe -log fsm_exam.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fsm_exam.tcl
+# Log file: D:/working/harman_FPGA/250305_fsm_exam/250305_fsm_exam.runs/synth_1/fsm_exam.vds
+# Journal file: D:/working/harman_FPGA/250305_fsm_exam/250305_fsm_exam.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fsm_exam.tcl -notrace

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project3_sensor1.srcs/sources_1/imports/sources_1/imports/Source/btn_debounce.v" \
+"../../../../project3_sensor1.srcs/sources_1/imports/sources_1/new/fnd_controller.v" \
+"../../../../project3_sensor1.srcs/sources_1/imports/sources_1/new/top_sensor.v" \
+"../../../../project3_sensor1.srcs/sim_1/imports/new/tb_sensor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

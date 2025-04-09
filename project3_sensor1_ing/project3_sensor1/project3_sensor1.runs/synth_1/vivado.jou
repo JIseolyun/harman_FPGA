@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Mar 26 23:48:54 2025
+# Process ID: 4244
+# Current directory: C:/working_verilog/harman_FPGA/project3_sensor1/project3_sensor1.runs/synth_1
+# Command line: vivado.exe -log top_all.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_all.tcl
+# Log file: C:/working_verilog/harman_FPGA/project3_sensor1/project3_sensor1.runs/synth_1/top_all.vds
+# Journal file: C:/working_verilog/harman_FPGA/project3_sensor1/project3_sensor1.runs/synth_1\vivado.jou
+# Running On: BOOK-CTJOQLMG70, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 16739 MB
+#-----------------------------------------------------------
+source top_all.tcl -notrace

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../20250407_RegisterFile_NO.srcs/sources_1/imports/Downloads/ControlUnit.sv" \
+"../../../../20250407_RegisterFile_NO.srcs/sources_1/imports/Downloads/DataPath.sv" \
+"../../../../20250407_RegisterFile_NO.srcs/sources_1/imports/Downloads/top_DedicatedProcessor.sv" \
+"../../../../20250407_RegisterFile_NO.srcs/sim_1/imports/Downloads/tb_DedicatedProcessor.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../250310_Mealy_FSM.srcs/sources_1/new/Mealy_fsm.v" \
+"../../../../250310_Mealy_FSM.srcs/sim_1/imports/harman_FPGA/tb_fsm_mealy.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

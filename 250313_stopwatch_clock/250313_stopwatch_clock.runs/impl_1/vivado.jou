@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 13 12:50:02 2025
+# Process ID: 2656
+# Current directory: D:/working/harman_FPGA/250313_stopwatch_clock/250313_stopwatch_clock.runs/impl_1
+# Command line: vivado.exe -log top_watch.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_watch.tcl -notrace
+# Log file: D:/working/harman_FPGA/250313_stopwatch_clock/250313_stopwatch_clock.runs/impl_1/top_watch.vdi
+# Journal file: D:/working/harman_FPGA/250313_stopwatch_clock/250313_stopwatch_clock.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_watch.tcl -notrace

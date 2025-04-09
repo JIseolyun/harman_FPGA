@@ -1,0 +1,193 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Mar 21 15:43:49 2025
+| Host         : DESKTOP-7CFQ9ND running 64-bit major release  (build 9200)
+| Command      : report_methodology -file top_uart_fifo_methodology_drc_routed.rpt -pb top_uart_fifo_methodology_drc_routed.pb -rpx top_uart_fifo_methodology_drc_routed.rpx
+| Design       : top_uart_fifo
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 28
++-----------+------------------+-------------------------------+------------+
+| Rule      | Severity         | Description                   | Violations |
++-----------+------------------+-------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell   | 3          |
+| LUTAR-1   | Warning          | LUT drives async reset alert  | 1          |
+| TIMING-18 | Warning          | Missing input or output delay | 16         |
+| TIMING-20 | Warning          | Non-clocked latch             | 8          |
++-----------+------------------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin U_STOPWATCH_WATCH/U_fnd_ctrl/U_Counter_8/r_counter_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin U_STOPWATCH_WATCH/U_fnd_ctrl/U_Counter_8/r_counter_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin U_STOPWATCH_WATCH/U_fnd_ctrl/U_Counter_8/r_counter_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell U_STOPWATCH_WATCH/db_reset/FSM_onehot_state[2]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) U_STOPWATCH_WATCH/U_clk_cu/o_hour_inc_reg/CLR,
+U_STOPWATCH_WATCH/U_clk_cu/o_min_inc_reg/CLR,
+U_STOPWATCH_WATCH/U_clk_cu/o_sec_inc_reg/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/clk_reg_reg/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[0]/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[10]/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[11]/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[12]/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[13]/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[14]/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[15]/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[16]/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[17]/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[18]/CLR,
+U_STOPWATCH_WATCH/U_clock_dp/U_CLK_Div/count_reg_reg[19]/CLR
+ (the first 15 of 150 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on btnD relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on btnL relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on btnR relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on btnU relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on rst relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on rx relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on sw_mode relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on fnd_font[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on fnd_font[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on fnd_font[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on fnd_font[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on fnd_font[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on fnd_font[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on fnd_font[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on fnd_font[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on tx relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch U_UART/U_UART_RX/rx_data_next_reg[0] cannot be properly analyzed as its control pin U_UART/U_UART_RX/rx_data_next_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch U_UART/U_UART_RX/rx_data_next_reg[1] cannot be properly analyzed as its control pin U_UART/U_UART_RX/rx_data_next_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch U_UART/U_UART_RX/rx_data_next_reg[2] cannot be properly analyzed as its control pin U_UART/U_UART_RX/rx_data_next_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch U_UART/U_UART_RX/rx_data_next_reg[3] cannot be properly analyzed as its control pin U_UART/U_UART_RX/rx_data_next_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch U_UART/U_UART_RX/rx_data_next_reg[4] cannot be properly analyzed as its control pin U_UART/U_UART_RX/rx_data_next_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch U_UART/U_UART_RX/rx_data_next_reg[5] cannot be properly analyzed as its control pin U_UART/U_UART_RX/rx_data_next_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch U_UART/U_UART_RX/rx_data_next_reg[6] cannot be properly analyzed as its control pin U_UART/U_UART_RX/rx_data_next_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch U_UART/U_UART_RX/rx_data_next_reg[7] cannot be properly analyzed as its control pin U_UART/U_UART_RX/rx_data_next_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 25 16:32:48 2025
+# Process ID: 1576
+# Current directory: D:/working/harman_FPGA/project3_HCSR04/project3_HCSR04.runs/synth_1
+# Command line: vivado.exe -log top_project3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_project3.tcl
+# Log file: D:/working/harman_FPGA/project3_HCSR04/project3_HCSR04.runs/synth_1/top_project3.vds
+# Journal file: D:/working/harman_FPGA/project3_HCSR04/project3_HCSR04.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_project3.tcl -notrace

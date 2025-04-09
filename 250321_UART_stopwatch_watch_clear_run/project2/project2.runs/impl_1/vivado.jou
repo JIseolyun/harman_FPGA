@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 24 10:45:47 2025
+# Process ID: 9604
+# Current directory: D:/working/harman_FPGA/250321_UART_stopwatch_watch_clear_run/project2/project2.runs/impl_1
+# Command line: vivado.exe -log top_uart_fifo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_uart_fifo.tcl -notrace
+# Log file: D:/working/harman_FPGA/250321_UART_stopwatch_watch_clear_run/project2/project2.runs/impl_1/top_uart_fifo.vdi
+# Journal file: D:/working/harman_FPGA/250321_UART_stopwatch_watch_clear_run/project2/project2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_uart_fifo.tcl -notrace

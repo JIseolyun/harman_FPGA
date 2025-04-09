@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_uart2.srcs/sources_1/new/btn_debounce.v" \
+"../../../../project_uart2.srcs/sources_1/new/clock_cu.v" \
+"../../../../project_uart2.srcs/sources_1/new/clock_dp.v" \
+"../../../../project_uart2.srcs/sources_1/new/fifo.v" \
+"../../../../project_uart2.srcs/sources_1/new/fnd_controller.v" \
+"../../../../project_uart2.srcs/sources_1/new/stopwatch_cu.v" \
+"../../../../project_uart2.srcs/sources_1/new/stopwatch_dp.v" \
+"../../../../project_uart2.srcs/sources_1/new/top_clock.v" \
+"../../../../project_uart2.srcs/sources_1/new/top_uart_fifo.v" \
+"../../../../project_uart2.srcs/sources_1/imports/new/uart.v" \
+"../../../../project_uart2.srcs/sources_1/new/uart_cu.v" \
+"../../../../project_uart2.srcs/sim_1/new/tb_uart_stopwatchf.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
